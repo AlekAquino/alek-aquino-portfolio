@@ -109,7 +109,7 @@ button { font: inherit; }
 .case ul { display:flex; flex-wrap:wrap; gap:8px; list-style:none; margin:24px 0 0; padding:0; }
 .case li { border:1px solid var(--line); padding:7px 10px; color:#bdb4a5; font-size:9px; letter-spacing:.12em; text-transform:uppercase; }
 .case-media { min-width:0; position:relative; }
-.case-media img { display:block; width:100%; height:100%; object-fit:cover; }
+.case-media img { display:block; width:100%; height:100%; object-fit:contain; background:#050505; cursor:zoom-in; }
 .case-dark { background:#090806; }
 .magic-layout { display:grid; grid-template-columns:1.4fr .7fr; grid-template-rows:.56fr .44fr; gap:8px; padding:8px; }
 .magic-layout .media-wide { grid-column:1; grid-row:1; }
@@ -128,12 +128,24 @@ button { font: inherit; }
 .identity-strip > div { padding:36px 34px 36px 0; }
 .identity-strip h3 { margin:12px 0 0; font:500 27px/1.2 var(--serif); text-transform:uppercase; }
 .identity-strip figure { margin:0; padding:26px; border-left:1px solid var(--line); text-align:center; }
-.identity-strip figure img { width:100%; aspect-ratio:1; object-fit:contain; filter:saturate(.9); }
+.identity-strip figure img { width:100%; aspect-ratio:1; object-fit:contain; filter:saturate(.9); cursor:zoom-in; }
 .identity-strip figcaption { margin-top:12px; color:#a99c87; font-size:9px; letter-spacing:.16em; text-transform:uppercase; }
 .editorial-grid { margin-top:80px; display:grid; grid-template-columns:.72fr 1.15fr 1.15fr; gap:14px; align-items:start; }
 .editorial-grid figure { margin:0; }
-.editorial-grid img { width:100%; aspect-ratio:16/10; object-fit:cover; border:1px solid var(--line); }
+.editorial-grid img { width:100%; aspect-ratio:16/10; object-fit:contain; background:#050505; border:1px solid var(--line); cursor:zoom-in; }
 .editorial-grid figure:first-child img { aspect-ratio:4/5; }
+
+.brand-campaigns { margin-top:clamp(74px,9vw,130px); }
+.campaign-heading { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr); gap:18px 70px; align-items:end; margin-bottom:32px; }
+.campaign-heading .kicker { grid-column:1/-1; margin-bottom:0; }
+.campaign-heading h3 { margin:0; max-width:760px; color:var(--ivory); font:500 clamp(30px,4.2vw,58px)/.98 var(--serif); text-transform:uppercase; }
+.campaign-heading > p:last-child { margin:0; color:var(--muted); line-height:1.8; }
+.brand-campaign-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; align-items:start; }
+.brand-campaign-grid figure { margin:0; min-width:0; }
+.brand-campaign-grid img { display:block; width:100%; height:auto; border:1px solid var(--line); background:#050505; cursor:zoom-in; }
+.brand-campaign-grid figcaption { display:flex; justify-content:space-between; gap:14px; padding:14px 2px 6px; color:var(--ivory); font:500 13px var(--serif); text-transform:uppercase; letter-spacing:.06em; }
+.brand-campaign-grid figcaption span { color:var(--muted); font:500 9px var(--sans); letter-spacing:.12em; }
+.brand-campaign-grid .campaign-wide { grid-column:1/-1; }
 .editorial-grid figcaption { margin-top:12px; display:flex; justify-content:space-between; color:#e2d6c4; font:500 13px var(--serif); text-transform:uppercase; }
 .editorial-grid figcaption span { color:#7f7566; font:600 8px var(--sans); letter-spacing:.1em; }
 
@@ -141,9 +153,11 @@ button { font: inherit; }
 .video-projects { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
 .video-project { border:1px solid var(--line); background:#000; padding:0; color:white; position:relative; text-align:left; cursor:pointer; overflow:hidden; min-height:420px; }
 .video-project.featured { grid-column:1/3; min-height:650px; }
-.video-project img { width:100%; height:100%; position:absolute; inset:0; object-fit:cover; opacity:.64; transition:.55s; }
+.video-project img,
+.video-project .project-preview { width:100%; height:100%; position:absolute; inset:0; object-fit:cover; opacity:.64; transition:.55s; }
 .video-project::after { content:""; position:absolute; inset:0; background:linear-gradient(0deg,rgba(2,2,2,.94),transparent 58%); }
-.video-project:hover img { transform:scale(1.035); opacity:.82; }
+.video-project:hover img,
+.video-project:hover .project-preview { transform:scale(1.035); opacity:.82; }
 .play { position:absolute; z-index:2; width:58px; height:58px; border:1px solid var(--gold-bright); border-radius:50%; left:28px; top:28px; display:grid; place-items:center; background:rgba(0,0,0,.32); backdrop-filter:blur(8px); }
 .play i { width:0; height:0; border-top:7px solid transparent; border-bottom:7px solid transparent; border-left:11px solid var(--gold-bright); margin-left:3px; }
 .video-meta { position:absolute; z-index:2; left:30px; right:30px; bottom:26px; display:grid; gap:4px; }
@@ -198,6 +212,11 @@ button { font: inherit; }
 .video-dialog::backdrop { background:rgba(0,0,0,.88); backdrop-filter:blur(10px); }
 .dialog-frame { padding:12px; }
 .dialog-frame video { display:block; width:100%; max-height:78vh; background:#000; }
+
+.image-dialog { width:min(1180px,calc(100% - 24px)); max-height:94vh; padding:12px; background:#050505; color:white; border:1px solid var(--gold-dark); overflow:visible; }
+.image-dialog::backdrop { background:rgba(0,0,0,.92); backdrop-filter:blur(10px); }
+.image-dialog > img { display:block; width:100%; max-height:86vh; object-fit:contain; background:#020202; }
+.image-dialog p { margin:10px 4px 2px; color:var(--muted); font-size:12px; text-align:center; }
 .dialog-frame h2 { margin:14px 4px 5px; font:500 clamp(18px,2vw,26px) var(--serif); text-transform:uppercase; color:#e8bc67; }
 .dialog-close { position:absolute; right:-12px; top:-12px; width:42px;height:42px;border:1px solid var(--gold);border-radius:50%;background:#080706;color:#efbd5d;font-size:24px;cursor:pointer;z-index:2; }
 
@@ -248,6 +267,9 @@ button { font: inherit; }
   .scroll-cue { display:none; }
   .section-heading h2 { font-size:38px; }
   .pillars,.service-grid,.video-projects,.motion-row,.editorial-grid { grid-template-columns:1fr; }
+  .campaign-heading,.brand-campaign-grid { grid-template-columns:1fr; }
+  .campaign-heading .kicker,.brand-campaign-grid .campaign-wide { grid-column:auto; }
+  .brand-campaign-grid figcaption { display:grid; gap:4px; }
   .pillar { border-right:0;border-bottom:1px solid var(--line);min-height:310px; }
   .pillar:last-child { border-bottom:0; }
   .video-project.featured { grid-column:auto; min-height:450px; }

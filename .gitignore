@@ -40,3 +40,5 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+/PUBLICAR_NO_GITHUB/
+/publicar-no-github.ps1

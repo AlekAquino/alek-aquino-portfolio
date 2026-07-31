@@ -20,7 +20,7 @@
 
   <header class="site-header" data-header>
     <a class="brand" href="#inicio" aria-label="Alek Aquino — início">
-      <img src="assets/images/logo-alek.webp" alt="">
+      <img src="assets/images/logo-alek-transparent.png" alt="">
       <span><strong>Alek Aquino</strong><small>Soluções Digitais</small></span>
     </a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu" data-menu-button>
@@ -43,7 +43,7 @@
     <section class="hero" id="inicio">
       <div class="hero-art" aria-hidden="true">
         <img class="hero-photo" src="assets/images/hero-alek.webp" alt="">
-        <img class="hero-mark" src="assets/images/logo-alek.webp" alt="">
+        <img class="hero-mark" src="assets/images/logo-alek-transparent.png" alt="">
       </div>
       <div class="hero-shade"></div>
       <div class="hero-content wrap">
@@ -181,6 +181,36 @@
           <figure class="reveal"><img src="assets/images/farm-thumb-pt.webp" alt="Thumbnail Sistema de Fazenda"><figcaption>Conteúdo para YouTube <span>Thumbnail PT</span></figcaption></figure>
           <figure class="reveal"><img src="assets/images/farm-thumb-en.webp" alt="Thumbnail Farming System"><figcaption>Conteúdo internacional <span>Thumbnail EN</span></figcaption></figure>
         </div>
+
+        <div class="brand-campaigns">
+          <div class="campaign-heading reveal">
+            <p class="kicker">Campanhas Alek Aquino</p>
+            <h3>Minha marca também é parte do portfólio.</h3>
+            <p>Comunicação criada para apresentar soluções digitais, design e edição de vídeo com a mesma identidade premium do estúdio.</p>
+          </div>
+          <div class="brand-campaign-grid">
+            <figure class="reveal campaign-tall">
+              <img src="assets/images/alek-landing-page-press-kit.png" alt="Campanha Alek Aquino para landing pages e catálogos digitais">
+              <figcaption>Landing pages & catálogos <span>Campanha de serviços</span></figcaption>
+            </figure>
+            <figure class="reveal">
+              <img src="assets/images/alek-solucoes-digitais.png" alt="Campanha Alek Aquino de soluções digitais">
+              <figcaption>Soluções digitais <span>Posicionamento de marca</span></figcaption>
+            </figure>
+            <figure class="reveal campaign-wide">
+              <img src="assets/images/alek-design-logo-flyer.png" alt="Campanha Alek Aquino de design, logo e flyers">
+              <figcaption>Design, logo & flyers <span>Comunicação comercial</span></figcaption>
+            </figure>
+            <figure class="reveal">
+              <img src="assets/images/alek-edicao-video-1x1.png" alt="Campanha Alek Aquino para edição de vídeos, Reels, Shorts e TikTok">
+              <figcaption>Edição de vídeos <span>Reels, Shorts & TikTok</span></figcaption>
+            </figure>
+            <figure class="reveal campaign-tall">
+              <img src="assets/images/alek-edicao-video-premium.png" alt="Campanha premium Alek Aquino para edição de vídeos">
+              <figcaption>Vídeo & conteúdo <span>Campanha premium</span></figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -204,11 +234,11 @@
             <span class="play"><i></i></span><span class="video-meta"><b>Landing Page Mega Hair</b><small>Beleza · Conversão</small></span>
           </button>
           <button class="video-project reveal" type="button" data-video="assets/videos/web/lumina-demo.mp4" data-title="Landing Page Lumina">
-            <img src="assets/images/eternal-banner.webp" alt="">
+            <video class="project-preview" muted playsinline preload="metadata" src="assets/videos/web/lumina-demo.mp4#t=1" aria-hidden="true"></video>
             <span class="play"><i></i></span><span class="video-meta"><b>Landing Page Lumina</b><small>Conceito · Navegação</small></span>
           </button>
           <button class="video-project reveal" type="button" data-video="assets/videos/web/institucional-demo.mp4" data-title="Site Institucional">
-            <img src="assets/images/manifesto-alek.webp" alt="">
+            <video class="project-preview" muted playsinline preload="metadata" src="assets/videos/web/institucional-demo.mp4#t=1" aria-hidden="true"></video>
             <span class="play"><i></i></span><span class="video-meta"><b>Site Institucional</b><small>Marca · Presença digital</small></span>
           </button>
         </div>
@@ -252,7 +282,7 @@
     </section>
 
     <section class="contact section" id="contato">
-      <div class="contact-dragon" aria-hidden="true"><img src="assets/images/logo-alek.webp" alt=""></div>
+      <div class="contact-dragon" aria-hidden="true"><img src="assets/images/logo-alek-transparent.png" alt=""></div>
       <div class="wrap contact-inner reveal">
         <p class="kicker">Seu próximo projeto</p>
         <h2>Vamos transformar sua ideia em <span>realidade?</span></h2>
@@ -271,7 +301,7 @@
 
   <footer class="footer">
     <div class="wrap">
-      <a class="brand footer-brand" href="#inicio"><img src="assets/images/logo-alek.webp" alt=""><span><strong>Alek Aquino</strong><small>Soluções Digitais</small></span></a>
+      <a class="brand footer-brand" href="#inicio"><img src="assets/images/logo-alek-transparent.png" alt=""><span><strong>Alek Aquino</strong><small>Soluções Digitais</small></span></a>
       <p>Estratégia · Design · Tecnologia · Storytelling</p>
       <small>© <span data-year></span> Alek Aquino. Todos os direitos reservados.</small>
     </div>
@@ -287,6 +317,12 @@
       <video controls playsinline data-dialog-video></video>
       <h2 data-dialog-title></h2>
     </div>
+  </dialog>
+
+  <dialog class="image-dialog" data-image-dialog>
+    <button type="button" class="dialog-close" aria-label="Fechar imagem" data-image-dialog-close>×</button>
+    <img src="" alt="" data-dialog-image>
+    <p data-image-dialog-caption></p>
   </dialog>
 </body>
 </html>
