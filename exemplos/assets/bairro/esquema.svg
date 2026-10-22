@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+<title id="title">Esquema conceitual de ambientes</title><desc id="desc">Quatro ambientes ilustrativos: entrada, conversa, consultório e espaço da família. Não representa uma clínica ou endereço real.</desc>
+<rect width="900" height="560" fill="#f4e5ce"/><g fill="none" stroke="#b29576" stroke-width="1"><path d="M0 40H900M0 520H900M24 0V560M876 0V560"/></g>
+<text x="48" y="30" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#3b503f">ESQUEMA CONCEITUAL · SEM ESCALA</text>
+<g stroke="#3b503f" stroke-width="3"><rect x="48" y="65" width="360" height="250" rx="12" fill="#fff5e6"/><rect x="445" y="65" width="400" height="250" rx="12" fill="#dce6d5"/><rect x="48" y="345" width="250" height="150" rx="12" fill="#d6decd"/><rect x="335" y="345" width="510" height="150" rx="12" fill="#fff5e6"/></g>
+<g fill="none" stroke="#a44e35" stroke-width="2"><rect x="160" y="130" width="130" height="80" rx="34"/><rect x="100" y="148" width="35" height="44" rx="10"/><rect x="314" y="148" width="35" height="44" rx="10"/><rect x="585" y="120" width="80" height="115" rx="22"/><path d="M625 235V257M602 257H648M665 140H710V105"/><circle cx="711" cy="100" r="15"/><rect x="510" y="85" width="40" height="125" rx="4"/><rect x="397" y="385" width="124" height="45" rx="8"/><rect x="655" y="385" width="124" height="45" rx="8"/><circle cx="590" cy="407" r="23"/><path d="M120 450H222M120 438V462M222 438V462"/></g>
+<g font-family="Arial,sans-serif" font-size="20" font-weight="600" fill="#3b503f" text-anchor="middle"><text x="228" y="275">Conversa</text><text x="645" y="275">Consultório</text><text x="173" y="387">Entrada</text><text x="590" y="470">Espaço da família</text></g>
+<g fill="#8fa77b" stroke="#3b503f" stroke-width="1"><circle cx="85" cy="100" r="15"/><circle cx="810" cy="100" r="15"/><circle cx="810" cy="460" r="15"/></g>
+<text x="48" y="543" font-family="Arial,sans-serif" font-size="12" fill="#654c3b">Ilustração original do catálogo · Não é mapa de ruas nem planta de uma unidade real.</text>
+</svg>

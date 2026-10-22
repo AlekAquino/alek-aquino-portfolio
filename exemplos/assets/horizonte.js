@@ -1,0 +1,24 @@
+(() => {
+ 'use strict';
+ const groups=[...document.querySelectorAll('.horizonte-nav-group')];
+ groups.forEach(group=>group.addEventListener('toggle',()=>{if(group.open)groups.filter(g=>g!==group).forEach(g=>g.open=false);}));
+ document.addEventListener('click',e=>{if(!e.target.closest('.horizonte-nav-group'))groups.forEach(g=>g.open=false);});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){const group=groups.find(g=>g.open);if(group){group.open=false;group.querySelector('summary').focus();}}});
+ const root=document.querySelector('[data-horizonte-explorer]');if(!root||typeof window.Panzoom!=='function')return;
+ const frame=root.querySelector('.horizonte-image-frame'),image=frame.querySelector('img'),tools=root.querySelector('.horizonte-zoom-tools'),status=root.querySelector('[data-zoom-status]');
+ const reduce=matchMedia('(prefers-reduced-motion: reduce)');let pz=null,drag=false;
+ const options=()=>({animate:!reduce.matches,duration:180,force:true});
+ const update=()=>{if(!pz)return;const s=pz.getScale();root.querySelector('[data-zoom-in]').disabled=s>=2.49;root.querySelector('[data-zoom-out]').disabled=s<=1.01;status.textContent=s<=1.01?'Imagem completa.':`Ampliação ${Math.round(s*100)}%. Use as setas para mover o recorte.`;};
+ const stopDrag=()=>{drag=false;root.querySelector('[data-zoom-drag]').setAttribute('aria-pressed','false');root.querySelector('[data-zoom-drag]').textContent='Ativar arrasto';if(pz)pz.setOptions({disablePan:true,disableZoom:true,touchAction:'pan-y',cursor:'default'});};
+ const reset=()=>{if(pz){stopDrag();pz.reset({animate:false,force:true});update();}};
+ const start=async()=>{if(pz)return;try{await image.decode();if(!root.isConnected)return;pz=window.Panzoom(image,{minScale:1,maxScale:2.5,contain:'outside',disablePan:true,disableZoom:true,touchAction:'pan-y',cursor:'default',animate:false});tools.hidden=false;update();}catch{tools.hidden=true;status.textContent='Fotografia completa. A ampliação não está disponível.';}};
+ root.querySelector('[data-zoom-in]').addEventListener('click',()=>{pz?.zoomIn(options());});root.querySelector('[data-zoom-out]').addEventListener('click',()=>{pz?.zoomOut(options());});root.querySelector('[data-zoom-reset]').addEventListener('click',reset);
+ root.querySelector('[data-zoom-drag]').addEventListener('click',event=>{if(!pz)return;drag=!drag;pz.setOptions({disablePan:!drag,disableZoom:!drag,touchAction:drag?'none':'pan-y',cursor:drag?'grab':'default'});event.currentTarget.setAttribute('aria-pressed',String(drag));event.currentTarget.textContent=drag?'Desativar arrasto':'Ativar arrasto';});
+ frame.addEventListener('pointerdown',()=>frame.focus({preventScroll:true}),true);
+ frame.addEventListener('keydown',event=>{if(!pz)return;const keys=['+','=','-','Home','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'];if(!keys.includes(event.key))return;event.preventDefault();if(event.key==='Home')return reset();if(event.key==='+'||event.key==='=')return pz.zoomIn(options());if(event.key==='-')return pz.zoomOut(options());const p=pz.getPan(),step=45/pz.getScale();pz.pan(p.x+(event.key==='ArrowLeft'?step:event.key==='ArrowRight'?-step:0),p.y+(event.key==='ArrowUp'?step:event.key==='ArrowDown'?-step:0),{force:true,animate:false});});
+ image.addEventListener('panzoomchange',update);reduce.addEventListener('change',reset);
+ const resize=new ResizeObserver(reset);resize.observe(frame);
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)stopDrag();});
+ window.addEventListener('pagehide',event=>{stopDrag();if(!event.persisted){resize.disconnect();reduce.removeEventListener('change',reset);pz?.destroy();pz=null;}});
+ start();
+})();

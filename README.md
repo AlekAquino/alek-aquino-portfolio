@@ -23,8 +23,9 @@ e abrir http://127.0.0.1:8780/. Evitar abrir HTML por file://, pois os caminhos
 são relativos à raiz do domínio e há um módulo JavaScript local.
 
 Somente Hair Tempple tem site publicado confirmado. Os demais casos indicam sua
-condição de demonstração ou peça do portfólio. A galeria de modelos permanece
-em preparação; sua integração será uma atualização posterior.
+condição de demonstração ou peça do portfólio. A galeria em `/portfolio/modelos/` apresenta os 21 modelos odontológicos. Os exemplos em
+`/exemplos/odontologia/` abrem em nova guia. A escolha segue pelo WhatsApp, sem
+compra ou download. As demonstrações preservam noindex e dados fictícios.
 
 Não há Analytics, Ads, pixel, backend de formulário ou envio automático. O contato
 prepara uma mensagem para revisão no WhatsApp. Não incluir credenciais no site.

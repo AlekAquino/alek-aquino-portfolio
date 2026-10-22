@@ -196,3 +196,5 @@ body { isolation:isolate; }
   .site-atmosphere,.lg-host>.lg-layer,.lg-host>.lg-sheen { display:none; }
   .project-info,.service-grid .service-item,.faq summary,.filter-list button,.brief-form { border-color:CanvasText; }
 }
+.portfolio-tabs { display:flex;flex-wrap:wrap;gap:10px;padding-top:24px; }
+.portfolio-tabs .button { font-size:12px;min-height:44px;padding:12px 19px; }
