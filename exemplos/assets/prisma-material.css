@@ -1,0 +1,48 @@
+/* Prisma: luz através do vidro, não uma faixa branca sobre papel uniforme.
+   O fundo é original. Texto e foco permanecem fora do filtro óptico. */
+:root{--ink:#e5f2e9;--paper:#0c302c;--accent:#c1d9bd;--p-ink:#e5f2e9;--p-paper:#0c302c;--p-line:#d4ecdd35;--p-section:96px}
+body{background:#0c302c;color:var(--p-ink);isolation:isolate}
+body::before{content:'';position:fixed;inset:0;z-index:-2;pointer-events:none;background:linear-gradient(90deg,#092c2bed,#0c302ca6),url('exclusivos/06/material-v2-dente.jpg') center/cover no-repeat}
+.demo-bar{background:#092c2b;color:#c7dfd3}
+.header-06{width:min(980px,calc(100% - 64px));height:60px;margin:20px auto -80px;top:20px;border:1px solid #c5e1cb48;border-radius:20px;background:#123d35ed;color:#e5f2e9;box-shadow:0 8px 32px #001a2250;--lg-tint:linear-gradient(120deg,#315c4a96,#103a32cc);--lg-solid:#123d35}
+.header-06 .header-inner{height:58px;min-height:58px;padding-inline:22px;gap:32px}
+.header-06 #site-nav{gap:22px;font-size:13px}.prisma-wordmark{font-size:24px}
+.header-06 #site-nav>.prisma-contact{background:#c1d9bd;color:#0c302c;min-height:40px;padding:8px 18px}
+.header-06 .menu-toggle{color:#e5f2e9;border-color:#d4ecdd50}.nav-disclosure[open] summary{color:#c1d9bd}
+.header-06 .nav-submenu{isolation:isolate;background:#123d35f5;border-color:#c5e1cb48;color:#e5f2e9;box-shadow:0 20px 50px #001a2270;top:50px;--lg-tint:linear-gradient(130deg,#244f41eb,#0b2e2af0);--lg-solid:#123d35}
+.header-06 .nav-submenu[data-prisma-glass=ready]{background:transparent}.header-06 .nav-submenu a{border-bottom:1px solid #c5e1cb20}.header-06 .nav-submenu a:last-child{border:0}
+.prisma-intro{min-height:760px;background:transparent;align-items:center;padding-top:80px}
+.prisma-intro .wrap{width:min(1240px,calc(100% - 80px));display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center;padding-block:56px 64px}
+.prisma-intro-copy{width:100%;padding:0}.prisma-intro-copy>p:first-child{color:#c1d9bd;font-size:14px;margin-bottom:28px}.prisma-intro-copy h1{font-size:clamp(48px,4.7vw,70px);max-width:12ch}
+.prisma-intro-copy>p:not(:first-child){color:#c9ddd1;max-width:34ch;font-size:17px;line-height:1.8}
+.prisma-intro-image{position:relative;inset:auto;width:100%;height:auto;align-self:center;padding:12px;border:1px solid #c5e1cb48;border-radius:28px;background:linear-gradient(135deg,#a6c9ac20,#a6c9ac06);box-shadow:0 20px 60px #001a2240}
+.prisma-intro-image img{width:100%;height:420px;object-fit:cover;object-position:50% 40%;border-radius:18px}
+.prisma-intro-image figcaption{position:static;padding:12px 8px 2px;background:none;color:#c9ddd1;font-size:12px}
+.button,.closing-v2 .button{background:linear-gradient(120deg,#bdd8b6,#d5e7c7);color:#0c302c;border-color:#d7edcb;border-radius:12px;box-shadow:inset 0 1px #ffffffb0,0 6px 20px #001a2220}
+.button:hover,.closing-v2 .button:hover{background:#e5f2d9;color:#0c302c;box-shadow:0 0 0 4px #c1d9bd20}
+.care-destination{color:#d8edce}.direction-heading p,.explorer-panel p,.detail-title>p,.lead-paragraph,.care-chapter p{color:#c9ddd1}
+.prisma-dental-intro{min-height:730px;isolation:isolate}.prisma-dental-intro .wrap{position:relative;z-index:2}.prisma-tooth-art{position:absolute;inset:0;z-index:0}.prisma-tooth-art img{width:100%;height:100%;object-fit:cover;object-position:center}.prisma-tooth-art figcaption{position:absolute;bottom:32px;right:48px;font-size:12px;color:#d8edce}.prisma-dental-intro .prisma-intro-copy{max-width:510px;text-shadow:0 2px 24px #092c2b}.prisma-second-action{display:flex;width:fit-content;margin-top:18px;font-size:14px}.prisma-dental-intro::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#092c2b80,transparent 60%)}
+.explorer-panel>div{padding:24px;border:1px solid #c5e1cb35;border-radius:20px;background:linear-gradient(135deg,#153f35e8,#103a32c9);backdrop-filter:blur(8px)}
+.prisma-explorer{padding-top:64px}.prisma-explorer .tab-buttons{border:1px solid #c5e1cb3a;border-radius:20px;background:linear-gradient(135deg,#28574788,#103a3288);padding:8px 20px;backdrop-filter:blur(8px)}
+.prisma-explorer .tab-buttons button{color:#b6d0c0;font-size:20px;border-color:#c5e1cb35}.prisma-explorer .tab-buttons button[aria-selected=true]{color:#e5f2e9;border-color:#c1d9bd;background:none}
+.explorer-panel{gap:28px;align-items:start}.explorer-panel figure img{height:330px}.explorer-panel figcaption,.detail-editorial figcaption{color:#b6d0c0}
+.explorer-panel details{border-color:#c5e1cb35}.explorer-panel summary{color:#d8edce}.explorer-panel h3{font-size:28px}
+.prisma-photo-section{background:linear-gradient(120deg,#0a2c26c9,#194e3a8c);border-block:1px solid #c5e1cb26;padding-block:80px}
+.photo-gallery .gallery-controls{background:#123d35e8;color:#e5f2e9;border:1px solid #c5e1cb48;--lg-tint:linear-gradient(120deg,#315c4a96,#103a32cc);--lg-solid:#123d35}
+.gallery-controls button:hover{background:#c5e1cb30}.gallery-slides figcaption{color:#c9ddd1}
+.faq-item{border-color:#c5e1cb35}.faq-item[open]{background:#235b4330}.faq-item summary{color:#e5f2e9}.faq-item>div{color:#c9ddd1}
+.closing-v2{background:linear-gradient(120deg,#224e3d88,#0a2c26bb);border-block:1px solid #c5e1cb26;color:#e5f2e9}
+.site-footer{background:#0a2926e8;color:#c9ddd1;border:0}.footer-wordmark,.footer-columns h2{color:#e5f2e9}
+.detail-index a,.care-chapter,.visit-flow li,.detail-reading,.visit-prepare{border-color:#c5e1cb35}
+.care-photo-card .care-image,.detail-editorial figure,.visit-composition figure{padding:8px;border:1px solid #c5e1cb35;border-radius:20px;background:#315c4a20}
+.care-photo-card .care-image img{border-radius:12px}.care-photo-card h3,.care-photo-card p{min-height:0}.care-photo-card p{color:#c9ddd1}.care-photo-card>div{padding-top:20px}
+.contact-grid{background:linear-gradient(135deg,#285747bb,#103a32aa);border:1px solid #c5e1cb48;color:#e5f2e9;backdrop-filter:blur(8px)}
+.contact-preview{background:#0c302cbb;color:#e5f2e9;border:1px solid #c5e1cb35}.contact-preview input,.contact-preview select,.faq-search input{background:#edf5ef;color:#173c35}
+.contact-preview output{color:#c9ddd1}.contact-preview button{color:#0c302c}
+@media(min-width:801px){.prisma-intro-image{grid-column:2;grid-row:1;position:absolute;right:max(40px,calc((100vw - 1240px)/2));width:calc(min(1240px,100vw - 80px)*.52);max-width:645px}.prisma-intro .wrap{display:block}.prisma-intro-copy{width:42%}.prisma-intro-image img{height:420px}}
+@media(max-width:1100px) and (min-width:801px){.prisma-intro .wrap{width:calc(100% - 64px)}.prisma-intro-copy h1{font-size:52px}.prisma-intro-image img{height:380px}.care-explorer-layout{grid-template-columns:.7fr 1.4fr}.explorer-panel{grid-template-columns:1fr}.explorer-panel figure img{height:300px}}
+@media(max-width:1000px){.header-06 #site-nav:not([hidden]){background:#123d35f5;border-color:#c5e1cb48;color:#e5f2e9}.header-06 .nav-submenu{position:static;box-shadow:none;background:none;border:0}.header-06 .nav-submenu>.lg-layer,.header-06 .nav-submenu>.lg-sheen{display:none}}
+@media(max-width:800px){:root{--p-section:56px}.header-06{width:calc(100% - 32px);height:60px;margin:12px auto -72px;top:12px}.header-06 .header-inner{padding-inline:18px;gap:16px}.prisma-intro{padding-top:112px;min-height:0;display:block}.prisma-intro .wrap{display:block;width:calc(100% - 40px);padding:0 0 32px}.prisma-intro-copy{width:100%}.prisma-intro-copy h1{font-size:clamp(40px,10.5vw,60px);max-width:13ch}.prisma-intro-copy>p:first-child{margin-bottom:20px}.prisma-intro-copy>p:not(:first-child){font-size:16px}.prisma-intro-image{position:relative;inset:auto;width:calc(100% - 40px);height:auto;margin:0 auto 32px;padding:8px;border-radius:20px}.prisma-intro-image img{height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:12px;transform:none!important;animation:none!important}.prisma-intro-image figcaption{padding:10px 8px 4px}.prisma-explorer{padding-top:32px}.prisma-explorer .tab-buttons{padding:6px 12px;gap:12px}.prisma-explorer .tab-buttons button{font-size:14px;min-height:64px}.explorer-panel{grid-template-columns:1fr;gap:20px}.explorer-panel figure img{height:auto;aspect-ratio:3/2}.photo-gallery .gallery-controls{bottom:104px}.care-photo-card .care-image{padding:8px}.prisma-photo-section{padding-block:48px}.contact-grid{backdrop-filter:none}}
+@media(prefers-reduced-transparency:reduce){body::before{display:none}.header-06,.header-06 .nav-submenu,.photo-gallery .gallery-controls,.prisma-explorer .tab-buttons,.contact-grid,.contact-preview{background:#123d35!important;backdrop-filter:none}.prisma-photo-section,.closing-v2{background:#143b30}}
+@media(prefers-reduced-motion:reduce){body::before{background-attachment:scroll}.prisma-intro-image img{animation:none!important;transform:none!important}}
+@media(max-width:800px){.prisma-dental-intro{padding-top:104px;min-height:0;display:flex;flex-direction:column}.prisma-dental-intro .wrap{padding-bottom:24px}.prisma-dental-intro .prisma-intro-copy{max-width:none;text-shadow:none}.prisma-dental-intro .prisma-intro-copy>p:first-child{display:none}.prisma-dental-intro .prisma-intro-copy h1{font-size:40px;margin-bottom:18px}.prisma-dental-intro .prisma-intro-copy>p:not(:first-child){font-size:15px;line-height:1.65;margin-bottom:22px}.prisma-tooth-art{position:relative;inset:auto;width:100%;height:300px;order:2;overflow:hidden}.prisma-tooth-art img{width:100%;height:100%;object-fit:cover;object-position:100% center;transform:scale(1.02);transform-origin:right center}.prisma-tooth-art figcaption{right:20px;bottom:16px;font-size:11px}.prisma-dental-intro::after{display:none}.explorer-panel>div{padding:24px}.prisma-second-action{margin-top:12px}}

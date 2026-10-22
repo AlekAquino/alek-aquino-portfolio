@@ -1,0 +1,2 @@
+/* A transformação fotográfica usa CSS nativo; este arquivo cuida somente do menu. */
+(() => {'use strict';const group=document.querySelector('.jardim-more');if(!group)return;document.addEventListener('click',e=>{if(!group.contains(e.target))group.open=false;});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&group.open){group.open=false;group.querySelector('summary').focus();}});})();

@@ -52,6 +52,7 @@
     let area = allowed.has(parameters.get('area')) ? parameters.get('area') : 'todos';
     search.value = (parameters.get('busca') || '').slice(0, 80);
     function applyFilters(updateUrl = true) {
+      search.value = search.value.slice(0, 80);
       const query = normal(search.value.trim());
       let count = 0;
       cards.forEach(card => {
@@ -118,17 +119,23 @@
   if (form) {
     form.hidden = false;
     const result = form.querySelector('.brief-result');
+    const allowedAreas = new Set([...form.querySelectorAll('select[name="area"] option')].map(option => option.value));
+    const messageField = form.querySelector('[name="mensagem"]');
     form.addEventListener('input', () => { result.hidden = true; });
     form.addEventListener('submit', event => {
       event.preventDefault();
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      const message = `Olá, Alek! Quero conversar sobre um projeto.\n\nÁrea: ${data.get('area')}\nMinha ideia: ${String(data.get('mensagem')).trim().slice(0, 1200)}`;
+      const idea = String(data.get('mensagem') || '').trim().slice(0, 1200);
+      if (!idea) { messageField.setCustomValidity('Conte um pouco sobre o projeto.'); messageField.reportValidity(); return; }
+      const area = allowedAreas.has(data.get('area')) ? data.get('area') : 'Ainda quero entender as possibilidades';
+      const message = `Olá, Alek! Quero conversar sobre um projeto.\n\nÁrea: ${area}\nMinha ideia: ${idea}`;
       const link = form.querySelector('[data-brief-link]');
       link.href = `https://wa.me/5548991155774?text=${encodeURIComponent(message)}`;
       result.hidden = false;
       link.focus();
     });
+    messageField.addEventListener('input', () => messageField.setCustomValidity(''));
   }
 
   // Uma mídia iniciada pelo visitante interrompe outras da mesma página.

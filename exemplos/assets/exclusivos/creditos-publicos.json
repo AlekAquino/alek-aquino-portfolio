@@ -1,0 +1,1056 @@
+{
+  "date": "2026-10-22",
+  "images": [
+    {
+      "model": "01",
+      "name": "Essência",
+      "role": "abertura",
+      "web": "assets/exclusivos/01/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "01",
+      "name": "Essência",
+      "role": "prevencao",
+      "web": "assets/exclusivos/01/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "01",
+      "name": "Essência",
+      "role": "ambiente",
+      "web": "assets/exclusivos/01/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "01",
+      "name": "Essência",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/01/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "01",
+      "name": "Essência",
+      "role": "infancia",
+      "web": "assets/exclusivos/01/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "02",
+      "name": "Clareira",
+      "role": "abertura",
+      "web": "assets/exclusivos/02/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "02",
+      "name": "Clareira",
+      "role": "ambiente",
+      "web": "assets/exclusivos/02/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "02",
+      "name": "Clareira",
+      "role": "prevencao",
+      "web": "assets/exclusivos/02/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "02",
+      "name": "Clareira",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/02/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "02",
+      "name": "Clareira",
+      "role": "infancia",
+      "web": "assets/exclusivos/02/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "03",
+      "name": "Origem",
+      "role": "abertura",
+      "web": "assets/exclusivos/03/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "03",
+      "name": "Origem",
+      "role": "ambiente",
+      "web": "assets/exclusivos/03/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "03",
+      "name": "Origem",
+      "role": "prevencao",
+      "web": "assets/exclusivos/03/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "03",
+      "name": "Origem",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/03/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "03",
+      "name": "Origem",
+      "role": "infancia",
+      "web": "assets/exclusivos/03/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "04",
+      "name": "Vértice",
+      "role": "abertura",
+      "web": "assets/exclusivos/04/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "04",
+      "name": "Vértice",
+      "role": "ambiente",
+      "web": "assets/exclusivos/04/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "04",
+      "name": "Vértice",
+      "role": "prevencao",
+      "web": "assets/exclusivos/04/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "04",
+      "name": "Vértice",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/04/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "04",
+      "name": "Vértice",
+      "role": "infancia",
+      "web": "assets/exclusivos/04/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "05",
+      "name": "Nobile",
+      "role": "abertura",
+      "web": "assets/exclusivos/05/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "05",
+      "name": "Nobile",
+      "role": "ambiente",
+      "web": "assets/exclusivos/05/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "05",
+      "name": "Nobile",
+      "role": "prevencao",
+      "web": "assets/exclusivos/05/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "05",
+      "name": "Nobile",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/05/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "05",
+      "name": "Nobile",
+      "role": "infancia",
+      "web": "assets/exclusivos/05/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "06",
+      "name": "Prisma",
+      "role": "abertura",
+      "web": "assets/exclusivos/06/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "06",
+      "name": "Prisma",
+      "role": "ambiente",
+      "web": "assets/exclusivos/06/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "06",
+      "name": "Prisma",
+      "role": "prevencao",
+      "web": "assets/exclusivos/06/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "06",
+      "name": "Prisma",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/06/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "06",
+      "name": "Prisma",
+      "role": "infancia",
+      "web": "assets/exclusivos/06/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "07",
+      "name": "Fluxo",
+      "role": "abertura",
+      "web": "assets/exclusivos/07/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "07",
+      "name": "Fluxo",
+      "role": "ambiente",
+      "web": "assets/exclusivos/07/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "07",
+      "name": "Fluxo",
+      "role": "prevencao",
+      "web": "assets/exclusivos/07/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "07",
+      "name": "Fluxo",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/07/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "07",
+      "name": "Fluxo",
+      "role": "infancia",
+      "web": "assets/exclusivos/07/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "08",
+      "name": "Elo",
+      "role": "abertura",
+      "web": "assets/exclusivos/08/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "08",
+      "name": "Elo",
+      "role": "ambiente",
+      "web": "assets/exclusivos/08/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "08",
+      "name": "Elo",
+      "role": "prevencao",
+      "web": "assets/exclusivos/08/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "08",
+      "name": "Elo",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/08/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "08",
+      "name": "Elo",
+      "role": "infancia",
+      "web": "assets/exclusivos/08/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "09",
+      "name": "Conecta",
+      "role": "abertura",
+      "web": "assets/exclusivos/09/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "09",
+      "name": "Conecta",
+      "role": "ambiente",
+      "web": "assets/exclusivos/09/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "09",
+      "name": "Conecta",
+      "role": "prevencao",
+      "web": "assets/exclusivos/09/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "09",
+      "name": "Conecta",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/09/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "09",
+      "name": "Conecta",
+      "role": "infancia",
+      "web": "assets/exclusivos/09/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "10",
+      "name": "Lume",
+      "role": "abertura",
+      "web": "assets/exclusivos/10/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "10",
+      "name": "Lume",
+      "role": "ambiente",
+      "web": "assets/exclusivos/10/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "10",
+      "name": "Lume",
+      "role": "prevencao",
+      "web": "assets/exclusivos/10/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "10",
+      "name": "Lume",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/10/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "10",
+      "name": "Lume",
+      "role": "infancia",
+      "web": "assets/exclusivos/10/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "11",
+      "name": "Quintal",
+      "role": "abertura",
+      "web": "assets/exclusivos/11/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "11",
+      "name": "Quintal",
+      "role": "ambiente",
+      "web": "assets/exclusivos/11/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "11",
+      "name": "Quintal",
+      "role": "prevencao",
+      "web": "assets/exclusivos/11/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "11",
+      "name": "Quintal",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/11/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "11",
+      "name": "Quintal",
+      "role": "infancia",
+      "web": "assets/exclusivos/11/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "12",
+      "name": "Ritmo",
+      "role": "abertura",
+      "web": "assets/exclusivos/12/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "12",
+      "name": "Ritmo",
+      "role": "ambiente",
+      "web": "assets/exclusivos/12/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "12",
+      "name": "Ritmo",
+      "role": "prevencao",
+      "web": "assets/exclusivos/12/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "12",
+      "name": "Ritmo",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/12/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "12",
+      "name": "Ritmo",
+      "role": "infancia",
+      "web": "assets/exclusivos/12/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "13",
+      "name": "Contorno",
+      "role": "abertura",
+      "web": "assets/exclusivos/13/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "13",
+      "name": "Contorno",
+      "role": "ambiente",
+      "web": "assets/exclusivos/13/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "13",
+      "name": "Contorno",
+      "role": "prevencao",
+      "web": "assets/exclusivos/13/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "13",
+      "name": "Contorno",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/13/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "13",
+      "name": "Contorno",
+      "role": "infancia",
+      "web": "assets/exclusivos/13/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "14",
+      "name": "Acervo",
+      "role": "abertura",
+      "web": "assets/exclusivos/14/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "14",
+      "name": "Acervo",
+      "role": "ambiente",
+      "web": "assets/exclusivos/14/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "14",
+      "name": "Acervo",
+      "role": "prevencao",
+      "web": "assets/exclusivos/14/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "14",
+      "name": "Acervo",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/14/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "14",
+      "name": "Acervo",
+      "role": "infancia",
+      "web": "assets/exclusivos/14/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "15",
+      "name": "Abraço",
+      "role": "abertura",
+      "web": "assets/exclusivos/15/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "15",
+      "name": "Abraço",
+      "role": "ambiente",
+      "web": "assets/exclusivos/15/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "15",
+      "name": "Abraço",
+      "role": "prevencao",
+      "web": "assets/exclusivos/15/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "15",
+      "name": "Abraço",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/15/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "15",
+      "name": "Abraço",
+      "role": "infancia",
+      "web": "assets/exclusivos/15/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "16",
+      "name": "Atlas",
+      "role": "abertura",
+      "web": "assets/exclusivos/16/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "16",
+      "name": "Atlas",
+      "role": "ambiente",
+      "web": "assets/exclusivos/16/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "16",
+      "name": "Atlas",
+      "role": "prevencao",
+      "web": "assets/exclusivos/16/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "16",
+      "name": "Atlas",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/16/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "16",
+      "name": "Atlas",
+      "role": "infancia",
+      "web": "assets/exclusivos/16/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "17",
+      "name": "Bairro",
+      "role": "abertura",
+      "web": "assets/exclusivos/17/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "17",
+      "name": "Bairro",
+      "role": "ambiente",
+      "web": "assets/exclusivos/17/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "17",
+      "name": "Bairro",
+      "role": "prevencao",
+      "web": "assets/exclusivos/17/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "17",
+      "name": "Bairro",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/17/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "17",
+      "name": "Bairro",
+      "role": "infancia",
+      "web": "assets/exclusivos/17/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "18",
+      "name": "Forma",
+      "role": "abertura",
+      "web": "assets/exclusivos/18/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "18",
+      "name": "Forma",
+      "role": "ambiente",
+      "web": "assets/exclusivos/18/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "18",
+      "name": "Forma",
+      "role": "prevencao",
+      "web": "assets/exclusivos/18/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "18",
+      "name": "Forma",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/18/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "18",
+      "name": "Forma",
+      "role": "infancia",
+      "web": "assets/exclusivos/18/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "19",
+      "name": "Acesso",
+      "role": "abertura",
+      "web": "assets/exclusivos/19/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "19",
+      "name": "Acesso",
+      "role": "ambiente",
+      "web": "assets/exclusivos/19/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "19",
+      "name": "Acesso",
+      "role": "prevencao",
+      "web": "assets/exclusivos/19/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "19",
+      "name": "Acesso",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/19/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "19",
+      "name": "Acesso",
+      "role": "infancia",
+      "web": "assets/exclusivos/19/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "20",
+      "name": "Horizonte",
+      "role": "abertura",
+      "web": "assets/exclusivos/20/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "20",
+      "name": "Horizonte",
+      "role": "ambiente",
+      "web": "assets/exclusivos/20/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "20",
+      "name": "Horizonte",
+      "role": "prevencao",
+      "web": "assets/exclusivos/20/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "20",
+      "name": "Horizonte",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/20/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "20",
+      "name": "Horizonte",
+      "role": "infancia",
+      "web": "assets/exclusivos/20/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "21",
+      "name": "Jardim",
+      "role": "abertura",
+      "web": "assets/exclusivos/21/abertura-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "21",
+      "name": "Jardim",
+      "role": "ambiente",
+      "web": "assets/exclusivos/21/ambiente-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "21",
+      "name": "Jardim",
+      "role": "prevencao",
+      "web": "assets/exclusivos/21/prevencao-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "21",
+      "name": "Jardim",
+      "role": "ortodontia",
+      "web": "assets/exclusivos/21/ortodontia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    },
+    {
+      "model": "21",
+      "name": "Jardim",
+      "role": "infancia",
+      "web": "assets/exclusivos/21/infancia-v1.jpg",
+      "width": 1536,
+      "height": 1024,
+      "generated_by": "image_gen integrado",
+      "illustrative": true
+    }
+  ],
+  "notice": "Marcas, pessoas, ambientes e composições fictícios; sem valor diagnóstico ou resultado clínico real."
+}
