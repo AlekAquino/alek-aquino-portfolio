@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-# Demonstração: noindex nos HTMLs; sem domínio de produção confirmado.
