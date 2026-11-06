@@ -1,0 +1,79 @@
+/* NAZA — cabeçalho compacto, hero fluido e controles em vidro. */
+html{scroll-padding-top:60px}
+header{background:linear-gradient(115deg,#342d2180,#16140fb8);backdrop-filter:blur(24px) saturate(145%);-webkit-backdrop-filter:blur(24px) saturate(145%);box-shadow:inset 0 1px #ffffff20,0 3px 16px #0002}
+.header-inner{height:48px;gap:22px}
+.brand img{width:80px;height:39px}
+header nav{gap:26px}
+header nav a{font-size:11px;font-weight:400;letter-spacing:.015em;padding-block:8px}
+.header-cta{min-height:30px;padding:5px 11px;font-size:9px;gap:7px}
+.header-cta svg{width:15px;height:15px}
+/* Camadas de luz, borda interna e desfoque: sem substituir as fotos dos projetos. */
+.button,.menu-toggle,.gallery-filters button,.gallery-arrows button,.photo-prev,.photo-next,#lightbox .close,.floating-wa{
+ background:linear-gradient(145deg,#ffffff24 0%,#ffffff06 40%,#ffffff02 60%,#ffffff14 100%),#163f3090;
+ border-color:#d3c29a70;box-shadow:inset 0 1px 0 #ffffff52,inset 0 -1px 0 #ffffff12,0 5px 16px #0003;
+ backdrop-filter:blur(18px) saturate(155%);-webkit-backdrop-filter:blur(18px) saturate(155%);
+ transition:background .2s,border-color .2s,box-shadow .2s,transform .2s;
+}
+.button{border-radius:9px}
+.button.outline,.header-cta{background:linear-gradient(145deg,#ffffff20,#ffffff03 50%,#ffffff12),#292b2580!important}
+.button:hover,.gallery-filters button:hover,.gallery-arrows button:hover,.photo-prev:hover,.photo-next:hover,#lightbox .close:hover,.floating-wa:hover{background:linear-gradient(145deg,#ffffff36,#ffffff09 55%,#ffffff1c),#235b44b3;border-color:#efdbb8bd;box-shadow:inset 0 1px #ffffff70,0 7px 20px #0004}
+.button.outline:hover,.header-cta:hover{background:linear-gradient(145deg,#ffffff30,#ffffff0a 55%,#ffffff20),#354535a6!important}
+.gallery-filters button[aria-pressed=true]{background:linear-gradient(145deg,#ffffff32,#ffffff07),#296247b3;box-shadow:inset 0 1px #ffffff66,0 0 0 1px #c49b5c44}
+.hero.integrated-hero{padding:0;min-height:500px;background:#17140f}
+.integrated-hero .hero-photo{position:absolute;inset:0 0 0 34%;height:auto}
+.integrated-hero .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 44%;filter:none}
+.hero.integrated-hero:after{display:block;background:linear-gradient(90deg,#17140f 0%,#17140f 34%,#17140fcc 39%,#17140f40 47%,transparent 55%)}
+.integrated-hero .hero-content{position:relative;z-index:2;padding:48px 0 42px}
+.integrated-hero .hero-copy{width:450px;max-width:100%}
+.integrated-hero h1{font-size:clamp(36px,3.4vw,48px);line-height:1.08;margin-bottom:22px}
+.integrated-hero .hero-lead{max-width:330px;font-size:15px;line-height:1.65;margin-bottom:24px}
+.integrated-hero .eyebrow{margin-bottom:18px}
+.integrated-hero .photo-caption{right:24px;bottom:18px;top:auto;left:auto;background:#12170da3;padding:6px 10px;border-radius:5px;font-size:10px;backdrop-filter:blur(12px)}
+@media(min-width:901px) and (max-width:1100px){
+.integrated-hero .hero-photo{left:38%}
+.integrated-hero .hero-copy{width:350px}
+.integrated-hero h1{font-size:38px}
+.integrated-hero .hero-lead{max-width:290px;font-size:14px}
+.hero.integrated-hero:after{background:linear-gradient(90deg,#17140f 0%,#17140f 38%,#17140fc9 43%,transparent 56%)}
+}
+@media(max-width:900px){
+.header-inner{height:46px;gap:10px}
+.brand img{width:74px;height:36px}
+header nav{display:none;position:absolute;left:0;right:0;top:46px;padding:8px 20px;background:#1d2119dc;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+header nav.open{display:flex;flex-direction:column;gap:0}
+header nav a{padding:11px 0;font-size:13px}
+.header-cta{font-size:8px;padding:5px 9px;min-height:29px;border-radius:7px;gap:6px}
+.menu-toggle{width:32px;height:29px;padding:7px;gap:4px;border-radius:7px}
+.menu-toggle span{width:16px}
+.hero.integrated-hero{min-height:0;padding:0;background:#17140f}
+.integrated-hero .hero-photo{position:relative;inset:auto;width:100%;height:clamp(235px,78vw,430px)}
+.integrated-hero .hero-photo img{object-position:50% 55%}
+.integrated-hero .hero-photo:after{content:"";position:absolute;inset:auto 0 0;height:76px;background:linear-gradient(transparent,#17140f);pointer-events:none}
+.hero.integrated-hero:after{display:none}
+.integrated-hero .hero-content{margin-top:-12px;padding:0 0 30px}
+.integrated-hero .hero-copy{width:100%;max-width:560px}
+.integrated-hero h1{font-size:clamp(29px,7.7vw,39px);line-height:1.08;margin-bottom:18px}
+.integrated-hero .eyebrow{font-size:8px;letter-spacing:.14em;margin-bottom:12px}
+.integrated-hero .hero-lead{font-size:14px;max-width:430px;margin-bottom:20px;line-height:1.6}
+.integrated-hero .photo-caption{top:12px;left:18px;bottom:auto;right:auto;padding:5px 8px;font-size:9px}
+.integrated-hero .hero-link{margin-top:15px}
+.integrated-hero .button{min-height:44px;padding:12px 17px;font-size:10px}
+}
+@media(min-width:601px) and (max-width:900px){
+.integrated-hero .hero-photo{height:clamp(360px,54vw,430px)}
+.integrated-hero .hero-photo img{object-position:50% 44%}
+.integrated-hero .hero-content{margin-top:-20px}
+.integrated-hero h1{font-size:40px}
+}
+@media(max-width:360px){
+.header-inner{gap:8px}.integrated-hero .photo-caption{left:18px}
+.integrated-hero .hero-lead{font-size:13px}
+}
+@media(max-width:600px){.integrated-hero .photo-caption{display:none}}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+header{background:#211e18}.button,.gallery-filters button,.gallery-arrows button,.photo-prev,.photo-next,#lightbox .close,.floating-wa{background:linear-gradient(145deg,#41634f,#173b2c)}
+.button.outline,.header-cta{background:linear-gradient(145deg,#393a30,#24271f)!important}
+}
+@media(prefers-reduced-motion:reduce){.button,.menu-toggle,.gallery-filters button,.gallery-arrows button,.photo-prev,.photo-next,.floating-wa{transition:none}}
+
+.integrated-hero .hero-photo picture{display:block;width:100%;height:100%}
